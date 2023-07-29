@@ -5,3 +5,7 @@ Starting the Frontend
 <Route> is not working without enclosing it in <Routes>.
 <Route component={SomeScreen}> The "component attribute works when written "Component"
 <Route Component={SomeScreen}> (Works)
+
+React6 uses "element" prop in <Route> instead of "Component"
+<Route element={<SomeComponent/>}>
+

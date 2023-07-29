@@ -1,3 +1,7 @@
 29 JULY 2023 29 JULY 2023 29 JULY 2023 29 JULY 2023 29 JULY 2023 29 JULY 2023 29 JULY 2023 
 
 Starting the Frontend
+
+<Route> is not working without enclosing it in <Routes>.
+<Route component={SomeScreen}> The "component attribute works when written "Component"
+<Route Component={SomeScreen}> (Works)
